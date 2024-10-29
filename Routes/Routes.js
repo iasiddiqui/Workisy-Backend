@@ -1,11 +1,9 @@
-// Routes/Routes.js
 import express from 'express';
+import { createUserProfile } from '../controllers/userProfileController.js';
 
 const router = express.Router();
 
-// Define your routes here
-router.get('/example', (req, res) => {
-    res.send('This is an example route.');
-});
+// Route for creating user profile
+router.post('/adminProfile', createUserProfile);
 
 export { router }; // Named export
