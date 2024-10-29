@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
 
-// Personal Details Schema
 const personalDetailsSchema = new mongoose.Schema({
   gender: { type: String, required: true },
   personalValues: [{ type: String }],
