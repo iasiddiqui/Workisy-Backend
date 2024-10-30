@@ -1,9 +1,9 @@
 import express from 'express';
-import { createUserProfile } from '../controllers/userProfileController.js';
-import { createPersonalDetails } from "../controllers/personalDetails.controller.js";
-import { createCareerDetails } from '../controllers/careerDetails.controller.js';
-import { createCertification } from '../controllers/certification.controller.js';
-import { createAward } from '../controllers/award.controller.js';
+import { createUserProfile } from '../src/controllers/userProfile.controller.js';
+import { createPersonalDetails } from '../src/controllers/personalDetails.controller.js'; 
+import { createCareerDetails } from '../src/controllers/careerDetails.controller.js'
+import { createCertification} from '../src/controllers/certification.controller.js'
+import { createAward } from '../src/controllers/award.controller.js'
 
 const router = express.Router();
 

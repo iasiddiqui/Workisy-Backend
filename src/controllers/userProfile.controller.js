@@ -1,4 +1,4 @@
-import UserProfile from "../Models/UserProfile.js"; // Make sure the path is correct
+import UserProfile from "../Models/userProfile.model.js";
 
 export const createUserProfile = async (req, res) => {
   try {

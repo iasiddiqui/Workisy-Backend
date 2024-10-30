@@ -1,4 +1,3 @@
-// Models/careerDetails.model.js
 import mongoose from 'mongoose';
 
 const careerDetailsSchema = new mongoose.Schema({
